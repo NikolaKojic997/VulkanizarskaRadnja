@@ -109,13 +109,21 @@ package gume;
 				throw new RuntimeException("Visina van opsega");
 			this.visina = visina;
 		}
-
+		/**
+		 * Redefinisana toString metoda klase AutoGuma 
+		 * @return String sa svim podacima o gumi
+		 */
 		@Override
-
+		
 		public String toString() {
 			return "AutoGuma [markaModel=" + markaModel + ", precnik=" + precnik +
 					", sirina=" + sirina + ", visina=" + visina + "]";
 		}
+		
+		/**
+		 * Redefinisana Equals metoda klase AutoGuma koja poredi dve gume po svim atributima
+		 * @return boolean vrednost zavisno od toga jesu li poredjeni objekti isti
+		 */
 
 		@Override
 		public boolean equals(Object obj) {
