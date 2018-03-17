@@ -10,7 +10,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Administrator
+ * 
+ * Klasa koja sluzi za test klase AutoGuma
+ * @author Nikola Kojic
+ * 
  *
  */
 public class AutoGumaTest {

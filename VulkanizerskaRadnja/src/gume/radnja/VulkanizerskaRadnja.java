@@ -18,8 +18,12 @@ public class VulkanizerskaRadnja {
 	 */
 	private LinkedList<AutoGuma> gume = new LinkedList<AutoGuma>();
 	
+	
+	public LinkedList<AutoGuma> getGume() {
+		return this.gume;
+	}
 	/**
-	 * Metoda koja dodaje novu gumu u listu guma koje su dostupne u vulkanizerskoj radnji
+	 * Metoda koja dodaje novu gumu na pocetak liste guma koje su dostupne u vulkanizerskoj radnji
 	 * Metoda dodjaje novu gumu samo ukoliko ona nije null i ukoliko vec nije u listi
 	 * @param a predstavlja objekat tipa AutoGuma koji se unosi u listu
 	 */
@@ -44,7 +48,7 @@ public class VulkanizerskaRadnja {
 			return null;
 		LinkedList<AutoGuma> novaLista = new LinkedList<AutoGuma>();
 		for (int i = 0; i < gume.size(); i++)
-			if (gume.get(i).equals(markaModel))
+			if (gume.get(i).getMarkaModel().equals(markaModel))
 				novaLista.add(gume.get(i));
 		return novaLista;
 	}
