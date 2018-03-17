@@ -1,7 +1,7 @@
 package gume;
 	/**
 	 * 
-	 * Klasa koja predstavlja auto gume u okviru jedne vulkanizerske radnje
+	 * Klasa koja predstavlja opis auto gume u okviru jedne vulkanizerske radnje
 	 * @author Nikola Kojic
 	 * @version 0.0.1
 	 * 
